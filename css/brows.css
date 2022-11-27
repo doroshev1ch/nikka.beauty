@@ -1,0 +1,234 @@
+body{
+    background-color: rgb(232, 224, 216);
+}
+
+nav{
+    font-size: 20px;
+    font-family:MADE Evolve Sans Light;
+    letter-spacing: 2px;    
+}
+nav li{
+    display: inline;
+    padding: 100px;
+}
+nav  ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav a{
+    line-height: 80px;
+}
+
+header{
+    margin-left: 40px;
+    float: left;    
+    height: 100px;
+}
+
+.one{
+    position: relative;
+    margin: 0;
+    padding: 2%;
+}
+.one img{
+    background: #f0f0f0;
+    border-radius: 50px;
+    padding: 2%;
+
+    opacity:100;
+    transition: 1s;
+    animation: show 1s 1;
+    animation-fill-mode: backwards;
+    animation-delay: 1s;
+}
+.too{
+    font-size: 50px;
+    font-family: MADE Evolve Sans Bold ;
+    padding-top: 400px;
+
+    opacity:100;
+    transition: 1s;
+    animation: show 1s 1;
+    animation-fill-mode: backwards;
+    animation-delay: 1s;
+}
+.too button{
+    background-color: rgb(232, 224, 216);
+    color: black;
+    font-family: MADE Evolve Sans Light;
+    font-size: 24px;
+    border-radius: 12px;
+    padding: 12px 28px;
+    border: 2px solid black;
+    margin-top: 40px;
+    display:inline-block;
+    cursor: pointer;
+}
+
+.too button:hover{
+    background-color: rgb(179, 168, 143);
+}
+
+.text{
+    font-family:MADE Evolve Sans Light;
+    font-size: 25px;
+}
+
+.three h1{
+    margin-top: 400px;
+    text-align: center;
+    font-family: MADE Evolve Sans Bold;
+    font-size: 50px; 
+}
+
+.three img{
+    position: relative;
+    display: inline-block;
+    margin-left: 20px;
+    width: 300px;
+    height: 400px;
+    padding: 15px;
+}
+
+.three ul{
+    margin: 0;
+    padding: 0;
+    padding-top: 80px;
+}
+
+.three li{
+    font-size: 20px;
+    font-family: MADE Evolve Sans Light;
+    display: inline;
+    padding: 150px;
+    list-style: none;
+}
+
+.four button{
+    display: inline;
+    position: relative;
+    background-color: rgb(180, 177, 172);
+    color: white;
+    font-family: MADE Evolve Sans Light;
+    font-size: 16px;
+    border-radius: 6px;
+    padding: 12px 28px;
+    border: none;
+    cursor: pointer;
+}
+
+.four button:hover{
+    background-color: rgb(179, 168, 143);
+}
+
+.four ul{
+    margin: 0;
+    padding: 0;
+}
+
+.four li{
+    padding: 110px;
+    display: inline;
+    position: relative;
+    margin-left: 10px;
+}
+
+.five{
+    margin-top: 200px;
+    margin-left: 150px;
+    display: inline-block;
+}
+.five h2{
+    font-family: MADE Evolve Sans Bold;
+    font-size: 50px;
+    width: 370px;
+    letter-spacing: 1px;
+}
+.five p{
+    font-size: 30px;
+    font-family: MADE Evolve Sans Light;
+    width: 370px;
+}
+.five ul{
+    margin: 0;
+    padding: 0;
+}
+.five li{
+    display: inline;
+    position: relative;
+}
+.five button{
+    display: inline;
+    position: relative;
+    padding: 0;
+    max-width: 70px;
+    border: 0;
+    border-radius: 0;
+    background-color: rgb(232, 224, 216);
+    cursor: pointer;
+}
+.six{
+    float: right;
+    margin-top: 245px;
+    margin-right: 150px;
+}
+.six li{
+    list-style: none;
+    display: inline;
+    padding: 15px;
+}
+footer img{
+    display: inline;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+     
+}
+footer li{
+    margin-top: 10px;
+}
+footer ul{
+    display: inline-block;
+    padding: 80px;
+}
+.time{
+    list-style-type: none;
+    font-size: 20px;
+    font-family: MADE Evolve Sans Light;
+    letter-spacing: 1px;  
+}
+.times{
+    list-style-type: none;
+    font-size: 20px;
+    font-family: MADE Evolve Sans Light;
+    letter-spacing: 1px;
+}
+.timesi{
+    list-style-type: none;
+    font-size: 20px;
+    font-family: MADE Evolve Sans Light;
+    letter-spacing: 1px;
+}
+
+
+@keyframes show {
+    0% {
+        opacity:0;
+    }
+    50% {
+        opacity: 0,5;
+    }
+    100% {
+        opacity:1;
+    }
+}
+@font-face {
+    font-family: "MADE Evolve Sans Bold";
+    src: url('../fonts/MADE Evolve Sans Bold (PERSONAL USE).otf') format("opentype");  
+}
+@font-face {
+    font-family: "MADE Evolve Sans Light";
+    src: url('../fonts/MADE Evolve Sans Light (PERSONAL USE).otf') format("opentype");  
+}
